@@ -1,5 +1,6 @@
 import com.acceleratedskillup.*;
 
-def call() {
-    def calculator = new Calculator()
+def call(script) {
+    def myCar = new Car(script)
+	myCar.printOutCar()
 }
